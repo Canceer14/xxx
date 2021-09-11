@@ -1,5 +1,6 @@
 # Aliaksandr Markevich
 ---
+
 |Contact data||         
 :------------------------------|----------------------:
 Mobile    | +375333784972
@@ -12,7 +13,9 @@ Discord   | Aleksandr Markevich (Canceer14)#4796
 + **Skill**:
 1. CSS - medium;
 2. HTML - medium.
+
 ---
+
   <pre>var laLigaGoals = 43
   var championsLeagueGoals = 10
   var copaDelReyGoals = 5
@@ -21,7 +24,9 @@ Discord   | Aleksandr Markevich (Canceer14)#4796
 ---
 
 ---
+
 **Education:** Technician programmer
+
 ---
 
 Level English: A0-A1.
