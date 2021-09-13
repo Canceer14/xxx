@@ -1,0 +1,151 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+	padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+
+body {
+	min-height: 100vh;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+}
+
+ul[class],
+ol[class] {
+	list-style: none;
+}
+
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+article > * + * {
+	margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+td {
+	padding: 10px;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+.page {
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	min-height: 100vh;
+}
+
+header,
+main,
+footer {
+	width: 1170px;
+}
+
+header {
+	padding-bottom: 10px;
+	border-bottom: 4px solid #000000;
+}
+
+.contact-data {
+	margin-top: 20px;
+	font-size: 20px;
+	border-collapse: collapse;
+}
+
+.about {
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+.skill {
+	margin-top: 20px;
+	font-size: 25px;
+}
+
+.skill_size {
+	font-size: 20px;
+}
+
+.code {
+	font-size: 20px;
+	background-color: rgba(137, 43, 226, 0.5);
+}
+
+.size {
+	padding-top: 15px;
+	font-size: 20px;
+	border-top: 4px solid #000000;
+}
+
+.footer-main {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	background-color: blanchedalmond;
+}
+
+.footer-main__photo {
+	padding-right: 100px;
+}
+
+.footer-main__logo-link {
+	width: 20%;
+}
+
+.footer-main__logo-link > a {
+	font-size: 30px;
+}
+@keyframes color-change {
+	0% {
+		color: blue;
+	}
+
+	50% {
+		color: red;
+	}
+
+	100% {
+		color: blue;
+	}
+}
+.footer-main__logo-link_animation-text {
+	animation: color-change 3s infinite;
+}
